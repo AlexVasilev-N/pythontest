@@ -3,6 +3,9 @@
 import random
 number = random.randint (10 , 99)
 
+
+print (number)
+
 def num (max):              # Надо разобраться!!!!
     numMax = number % 10 
     numMin = number // 10
@@ -11,10 +14,10 @@ def num (max):              # Надо разобраться!!!!
         max = numMax
     else:
         max = numMin
-    return f'{max}, lfffff'
+    return f'{max}, Число'
       
 
-result = max
+
 print (number)
-print (num)
-print (result)
+print (num (max))
+
